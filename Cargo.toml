@@ -1,0 +1,6 @@
+[package]
+name = "tlib-core"
+version = "0.1.0"
+authors = ["tajoy <tj328111241@gmail.com>"]
+
+[dependencies]
