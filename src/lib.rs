@@ -8,6 +8,9 @@
        html_playground_url = "https://play.rust-lang.org/",
        test(attr(allow(unused_variables), deny(warnings))))]
 
+pub use self::traits::{Configurable, Configer};
+
+mod traits;
 
 #[cfg(test)]
 mod tests {
