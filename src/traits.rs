@@ -8,7 +8,6 @@ extern crate rustc_serialize as serialize;
 pub trait Configurable: serialize::Decodable + Default {}
 
 pub trait Configer: serialize::Decoder {
-
     fn config<T: serialize::Decodable, S>(dataSource: &S) -> Result<T, Self::Error>;
 }
 
